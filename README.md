@@ -4,5 +4,5 @@ description: Shark Cafe
 
 # Initial page
 
-Coming soon.
+Coming soon, August 2019.
 
