@@ -1,0 +1,349 @@
+
+Low Frequency Baud-Rate Mode Setting (UCOS16=0)
+In Low Frequency Baud-Rate Mode Setting, the baud rate prescaler register UCBRx and the fractional portion modulator UCBRSx can be calculated as follows:
+
+UCBRx = INT(N) -> integer part of N
+
+UCBRSx = round((N - INT(N))*8) -> integer rounding of fractional part of N times 8
+Comparing it to the Baud Rate Setting Register Table provided in the User Guide document tidoc:slau208m Table 34-4. "Commonly Used Baud Rates, Settings, and Errors, UCOS16 = 0"-
+
+For fBRCLK=1MHz, BR=1200: N=1000000/1200 = 833.33333333333
+UCBRx = INT(N) = 833
+UCBRSx = round (0,33333333 * 8) = round (2,6666666) = 3
+
+For fBRCLK=1MHz, BR=2400: N=1000000/2400 = 416.66666666
+UCBRx = INT(N) = 416
+UCBRSx = round (0,66666666 * 8) = round (5,33333333) = 5
+
+
+For fBRCLK=1MHz, BR=4800: N=1000000/4800 = 208.33333333333
+UCBRx = INT(N) = 208
+UCBRSx = round (0,33333333 * 8) = round (2,6666666) = 3
+
+For fBRCLK=1MHz, BR=9600: N=1000000/9600 = 104,16666667
+UCBRx = INT(N) = 104
+UCBRSx = round (0,16666667 * 8) = round (1,33333333) = 1
+
+For fBRCLK=1MHz, BR=19200: N=1000000/19200 = 51,020408163265306122448979591837
+UCBRx = INT(N) = 51
+UCBRSx = round (0,020408163265306122448979591837 * 8) = round (0,16326530612244897959183673469388) = 0
+
+For fBRCLK=1MHz, BR=38400: N=1000000/38400 = 26,041666666666666666666666666667
+UCBRx = INT(N) = 26
+UCBRSx = round (0,041666666666666666666666666667 * 8) = round (0,33333333333333333333333333333333) = 0
+
+For fBRCLK=1MHz, BR=57600: N=1000000/57600 = 17,361111111111111111111111111111
+UCBRx = INT(N) = 17
+UCBRSx = round (0,361111111111111111111111111111 * 8) = round (2,8888888888888888888888888888889) = 3
+
+For fBRCLK=1MHz, BR=115200: N=1000000/115200 = 8,6805555555555555555555555555556
+UCBRx = INT(N) = 8
+UCBRSx = round (0,6805555555555555555555555555556 * 8) = round (5,4444444444444444444444444444444) = 6
+
+
+/*
+  uart calculator: http://mspgcc.sourceforge.net/baudrate.html
+  this program license is at: http://www.fsf.org/licenses/licenses.html#GPL
+  this program is distributed WITHOUT ANY WARRANTY
+
+  clock: 1000000Hz
+  desired baud rate: 4800bps
+  division factor: 208.3
+  effective baud rate: 4800.77bps
+  maximum error: 0.6666us   0.32%
+
+  time table (microseconds):
+        event      desired effective  error   error%
+    startbit->D0    208.33    209.00   -0.667  -0.32
+    D0->D1          416.67    417.00   -0.333  -0.16
+    D1->D2          625.00    625.00       +0  +0.00
+    D2->D3          833.33    833.00   +0.333  +0.16
+    D3->D4         1041.67   1042.00   -0.333  -0.16
+    D4->D5         1250.00   1250.00       +0  +0.00
+    D5->D6         1458.33   1458.00   +0.333  +0.16
+    D6->D7         1666.67   1666.00   +0.667  +0.32
+    D7->stopbit    1875.00   1875.00       +0  +0.00
+    end of stopb   2083.33   2083.00   +0.333  +0.16
+*/
+UBR00=0xD0; UBR10=0x00; UMCTL0=0x11; /* uart0 1000000Hz 4800bps */
+UBR01=0xD0; UBR11=0x00; UMCTL1=0x11; /* uart1 1000000Hz 4800bps */
+
+/*
+  uart calculator: http://mspgcc.sourceforge.net/baudrate.html
+  this program license is at: http://www.fsf.org/licenses/licenses.html#GPL
+  this program is distributed WITHOUT ANY WARRANTY
+
+  clock: 1000000Hz
+  desired baud rate: 2400bps
+  division factor: 416.7
+  effective baud rate: 2399.81bps
+  maximum error: 0.6666us   0.16%
+
+  time table (microseconds):
+        event      desired effective  error   error%
+    startbit->D0    416.67    417.00   -0.333  -0.08
+    D0->D1          833.33    834.00   -0.667  -0.16
+    D1->D2         1250.00   1250.00       +0  +0.00
+    D2->D3         1666.67   1667.00   -0.333  -0.08
+    D3->D4         2083.33   2084.00   -0.667  -0.16
+    D4->D5         2500.00   2500.00       +0  +0.00
+    D5->D6         2916.67   2917.00   -0.333  -0.08
+    D6->D7         3333.33   3333.00   +0.333  +0.08
+    D7->stopbit    3750.00   3750.00       +0  +0.00
+    end of stopb   4166.67   4167.00   -0.333  -0.08
+*/
+UBR00=0xA0; UBR10=0x01; UMCTL0=0x5B; /* uart0 1000000Hz 2399bps */
+UBR01=0xA0; UBR11=0x01; UMCTL1=0x5B; /* uart1 1000000Hz 2399bps */
+
+
+
+/*
+  uart calculator: http://mspgcc.sourceforge.net/baudrate.html
+  this program license is at: http://www.fsf.org/licenses/licenses.html#GPL
+  this program is distributed WITHOUT ANY WARRANTY
+
+  clock: 1000000Hz
+  desired baud rate: 1200bps
+  division factor: 833.3
+  effective baud rate: 1200.05bps
+  maximum error: 0.6666us   0.08%
+
+  time table (microseconds):
+        event      desired effective  error   error%
+    startbit->D0    833.33    834.00   -0.667  -0.08
+    D0->D1         1666.67   1667.00   -0.333  -0.04
+    D1->D2         2500.00   2500.00       +0  +0.00
+    D2->D3         3333.33   3334.00   -0.667  -0.08
+    D3->D4         4166.67   4167.00   -0.333  -0.04
+    D4->D5         5000.00   5000.00       +0  +0.00
+    D5->D6         5833.33   5833.00   +0.333  +0.04
+    D6->D7         6666.67   6666.00   +0.667  +0.08
+    D7->stopbit    7500.00   7500.00       +0  +0.00
+    end of stopb   8333.33   8333.00   +0.333  +0.04
+*/
+UBR00=0x41; UBR10=0x03; UMCTL0=0x09; /* uart0 1000000Hz 1200bps */
+UBR01=0x41; UBR11=0x03; UMCTL1=0x09; /* uart1 1000000Hz 1200bps */
+
+
+/*
+  uart calculator: http://mspgcc.sourceforge.net/baudrate.html
+  this program license is at: http://www.fsf.org/licenses/licenses.html#GPL
+  this program is distributed WITHOUT ANY WARRANTY
+
+  clock: 1000000Hz
+  desired baud rate: 115200bps
+  division factor: 8.7
+  effective baud rate: 114943bps
+  maximum error: 0.6388us   7.36%
+
+  time table (microseconds):
+        event      desired effective  error   error%
+    startbit->D0      8.68      9.00   -0.319  -3.68
+    D0->D1           17.36     18.00   -0.639  -7.36
+    D1->D2           26.04     26.00  +0.0416  +0.48
+    D2->D3           34.72     35.00   -0.278  -3.20
+    D3->D4           43.40     44.00   -0.597  -6.88
+    D4->D5           52.08     52.00  +0.0833  +0.96
+    D5->D6           60.76     61.00   -0.236  -2.72
+    D6->D7           69.44     69.00   +0.444  +5.12
+    D7->stopbit      78.12     78.00   +0.125  +1.44
+    end of stopb     86.81     87.00   -0.194  -2.24
+*/
+UBR00=0x08; UBR10=0x00; UMCTL0=0x5B; /* uart0 1000000Hz 114942bps */
+UBR01=0x08; UBR11=0x00; UMCTL1=0x5B; /* uart1 1000000Hz 114942bps */
+
+/*
+  uart calculator: http://mspgcc.sourceforge.net/baudrate.html
+  this program license is at: http://www.fsf.org/licenses/licenses.html#GPL
+  this program is distributed WITHOUT ANY WARRANTY
+
+  clock: 1000000Hz
+  desired baud rate: 38400bps
+  division factor: 26
+  effective baud rate: 38461.5bps
+  maximum error: 0.4166us   1.60%
+
+  time table (microseconds):
+        event      desired effective  error   error%
+    startbit->D0     26.04     26.00  +0.0416  +0.16
+    D0->D1           52.08     52.00  +0.0833  +0.32
+    D1->D2           78.12     78.00   +0.125  +0.48
+    D2->D3          104.17    104.00   +0.167  +0.64
+    D3->D4          130.21    130.00   +0.208  +0.80
+    D4->D5          156.25    156.00    +0.25  +0.96
+    D5->D6          182.29    182.00   +0.292  +1.12
+    D6->D7          208.33    208.00   +0.333  +1.28
+    D7->stopbit     234.38    234.00   +0.375  +1.44
+    end of stopb    260.42    260.00   +0.417  +1.60
+*/
+UBR00=0x1A; UBR10=0x00; UMCTL0=0x00; /* uart0 1000000Hz 38461bps */
+UBR01=0x1A; UBR11=0x00; UMCTL1=0x00; /* uart1 1000000Hz 38461bps */
+
+/*
+  uart calculator: http://mspgcc.sourceforge.net/baudrate.html
+  this program license is at: http://www.fsf.org/licenses/licenses.html#GPL
+  this program is distributed WITHOUT ANY WARRANTY
+
+  clock: 1000000Hz
+  desired baud rate: 19200bps
+  division factor: 52.1
+  effective baud rate: 19193.9bps
+  maximum error: 0.4999us   0.96%
+
+  time table (microseconds):
+        event      desired effective  error   error%
+    startbit->D0     52.08     52.00  +0.0833  +0.16
+    D0->D1          104.17    104.00   +0.167  +0.32
+    D1->D2          156.25    156.00    +0.25  +0.48
+    D2->D3          208.33    208.00   +0.333  +0.64
+    D3->D4          260.42    260.00   +0.417  +0.80
+    D4->D5          312.50    312.00     +0.5  +0.96
+    D5->D6          364.58    365.00   -0.417  -0.80
+    D6->D7          416.67    417.00   -0.333  -0.64
+    D7->stopbit     468.75    469.00    -0.25  -0.48
+    end of stopb    520.83    521.00   -0.167  -0.32
+*/
+UBR00=0x34; UBR10=0x00; UMCTL0=0x40; /* uart0 1000000Hz 19193bps */
+UBR01=0x34; UBR11=0x00; UMCTL1=0x40; /* uart1 1000000Hz 19193bps */
+
+
+
+/************************************************************************/
+/* Function    :                                                        */
+/* Purpose     :                                                        */
+/* Input       :                                                        */
+/* Outputs     :                                                        */
+/************************************************************************/
+#ifdef NOCODE
+// Echo back RXed character, confirm TX buffer is ready first
+#if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)
+#pragma vector=USCIAB0RX_VECTOR
+__interrupt void USCI0RX_ISR(void)
+#elif defined(__GNUC__)
+void __attribute__ ((interrupt(USCIAB0RX_VECTOR))) USCI0RX_ISR (void)
+#else
+#error Compiler not supported!
+#endif
+{
+  while (!(IFG2&UCA0TXIFG));                // USCI_A0 TX buffer ready?
+  UCA0TXBUF = UCA0RXBUF;                    // TX -> RXed character
+}
+
+#endif
+
+#ifdef NOCODE
+// I2C data transfer vector
+#pragma vector = USCIAB0TX_VECTOR
+
+__interrupt void USCIAB0TX_ISR(void)
+{
+#ifdef NOCODE
+    if (i2c_int()) __bic_SR_register_on_exit(CPUOFF); //Exit LPM0;
+#endif
+}
+
+// I2C status vector
+#pragma vector = USCIAB0RX_VECTOR
+
+__interrupt void USCIAB0RX_ISR(void)
+{
+#ifdef NOCODE
+    if (i2c_eint()) {
+        while (!(IFG2 & UCA0TXIFG)); // send error via UART
+        UCA0TXBUF = '#';
+    }
+#endif
+}
+
+#endif
+
+
+
+
+
+
+#ifdef PWMEXAMPLE
+
+#include "msp430G2553.h"
+#include <stdint.h>
+
+
+#define DUTY_CYCLE_BASE      135
+#define COMPARE_VOLTAGE_MV   3000
+
+#define CALC_FACTOR          (((uint32_t) COMPARE_VOLTAGE_MV) * DUTY_CYCLE_BASE)
+
+uint32_t adc_result;
+uint16_t voltage_mV;
+volatile uint16_t new_ccr_value;
+
+
+void main( void )
+{
+  // Stop watchdog timer
+  WDTCTL = (WDTPW | WDTHOLD);
+
+  // Set range to 16MHz
+  BCSCTL1 = CALBC1_16MHZ;
+  // Set DCO step and modulation to 16MHz
+  DCOCTL = CALDCO_16MHZ;
+
+  // Set special function of P1.6 to timer module
+  P1SEL |= 0x40;
+  // Set P1.6 to output direction
+  P1DIR |= 0x40;
+
+  // PWM frequency of 40kHz (25us)
+  TA0CCR0 = 400;
+  // Start with duty cycle base
+  TA0CCR1 = DUTY_CYCLE_BASE;
+  // Reset/set mode
+  TA0CCTL1 = OUTMOD_7;
+  // SMCLK, divider 1, up-mode, clear, overflow interrupt enabled
+  TA0CTL = (TASSEL_2 | ID_0 | MC_1 | TACLR | TAIE);
+
+  // Reference is Vref+ and Vss, 16 ADC10 clock cycles S&H, reference on, ADC on
+  ADC10CTL0 = (SREF_1 | ADC10SHT_2 | REFON | ADC10ON);
+  // Select internal resistor divider
+  ADC10CTL1 = INCH_11;
+  // Enable conversions
+  ADC10CTL0 |= ENC;
+
+  // Enable global interrupts
+  __bis_SR_register( GIE );
+
+  // Endless loop - main program
+  while( 1 )
+  {
+    // Start ADC conversion
+    ADC10CTL0 |= ADC10SC;
+    // Wait for conversion to be completed
+    while( ADC10CTL1 & ADC10BUSY );
+    // Copy ADC result
+    adc_result = ADC10MEM;
+
+    // Calculate voltage at 1:1 resistor divider (half of the real value)
+    // Left shift multiplies result by 2 to get supply voltage
+    voltage_mV = (((adc_result * 1500) / 1023) << 1);
+
+    // Calculate new CCR value
+    new_ccr_value = (CALC_FACTOR / voltage_mV);
+  }
+}
+
+
+// Timer 0 A1 interrupt service routine
+#pragma vector = TIMER0_A1_VECTOR
+__interrupt void Timer0_A1_ISR( void )
+{
+  switch( TA0IV )
+  {
+    case 10: // Overflow - TA0IFG
+    {
+      // Update new CCR value
+      TA0CCR1 = new_ccr_value;
+    }
+  }
+}
+
+#endif
