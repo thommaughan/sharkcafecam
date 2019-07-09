@@ -2,7 +2,9 @@
 
 * [Initial page](README.md)
 * [1](1/README.md)
-  * [2](1/2/README.md)
-    * [3](1/2/3/README.md)
-      * [4](1/2/3/4.md)
+  * [1.1](1/1.1/README.md)
+    * [1.2](1/1.1/1.2.md)
+* [2](2/README.md)
+  * [2.1](2/2.1/README.md)
+    * [2.2](2/2.1/2.2.md)
 
