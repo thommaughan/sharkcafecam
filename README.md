@@ -6,6 +6,9 @@ The shark Cafe Cam is a behavior-triggered imaging system that was developed by 
 
 ### The Shark Café
 ![journal pone 0047819 g002](https://user-images.githubusercontent.com/52707386/62470534-80a35d00-b74f-11e9-9ba3-354c2872ee0f.png)
-<p align = 'center'><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0047819">Jorgensen, et al. 2012</a></p>
+<p align = 'center'>Position estimation of White Sharks. Each dot represents where a White Shark is estimated to have been. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0047819">(Jorgensen, et al. 2012)</a></p>
+
+For a long time little was known of white shark migration. They were thought to stay around the California coast. In 2012 Sal Jorgensen and his team tracked a group of white sharks and found out the reality was more mysterious. The image above shows estimated migration routes of white sharks with ech dot representing a location estimate for a given time.The large cluster of dots in the center of the above image shows that white sharks are staying in that area between the coast of California and Hawaii. This puzzled scientists. The area, for its mystery, and yearly congregation of white sharks was named the White Shark Café.
+
 
 
