@@ -13,7 +13,7 @@ For a long time little was known of white shark migration. They were thought to 
 ### The Team
 
 ### History
-include itirations leading up to newest design
+include iterations leading up to newest design
 
 ### Goal
 BYO camera tag
