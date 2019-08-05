@@ -10,5 +10,14 @@ The shark Cafe Cam is a behavior-triggered imaging system that was developed by 
 
 For a long time little was known of white shark migration. They were thought to stay around the California coast. In 2012 Sal Jorgensen and his team tracked a group of white sharks and found out the reality was more mysterious. The image above shows estimated migration routes of white sharks with ech dot representing a location estimate for a given time.The large cluster of dots in the center of the above image shows that white sharks are staying in that area between the coast of California and Hawaii. This puzzled scientists. The area, for its mystery, and yearly congregation of white sharks was named the White Shark Café.
 
+### The Team
+
+### History
+include itirations leading up to newest design
+
+### Goal
+BYO camera tag
+MOVE TO TOP?
+
 
 
