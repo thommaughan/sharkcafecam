@@ -6,5 +6,6 @@ The shark Cafe Cam is a behavior-triggered imaging system that was developed by 
 
 ### The Shark Café
 ![journal pone 0047819 g002](https://user-images.githubusercontent.com/52707386/62470534-80a35d00-b74f-11e9-9ba3-354c2872ee0f.png)
+[Jorgensen, et al. 2012](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0047819)
 
 
