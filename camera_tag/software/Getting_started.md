@@ -13,14 +13,14 @@ There’s two important pages in the Adafruit instructions ‘Arduino IDE setup�
 Note: The main board uses the same processor as the Adafruit Feather M0 Adalogger. Therefore, the driver for the M0 is required to communicate with the board. The instructions above will guide you through the process.
 ```
 
-#### Step 2: Test communication through LED
+#### Step 2: Test communication through an onboard LED
 1. Open the Arduino IDE.
 2. Connect the board (micro USB) to your computer (USB).
 3. On the Arduino IDE select **Tools** > **Board** > **Adafruit Feather M0**
-4. Make sure the **Tools** > **Port** reads > **Adafruit Feather M0**
-   1. If this is not the case (either the computer isn't registering the device, there are multiple instances, etc.) go to the Restarting your board file.
+4. Make sure the **Tools** > **Port** reads '**Adafruit Feather M0**'
+   1. If this is not the case, either the computer isn't registering the device, there are multiple instances, etc., go to the Restarting your board file.
 5. Select **File** > **Examples** > **Basics** > **Blink**
-   1. Once the 'Blink' file opens, switch any 'LED_BUILTIN' statement for a '26.'
+   1. Once the 'Blink' file opens, switch any 'LED_BUILTIN' statement for a '26.' Alternatively, open the mod_Blink.ino file availble in this repository.
       1. If LED 1 begins to blink, then you have been succesfull.
    ```
    Note: 26 is the pin designation for Red LED 1 on the board.
