@@ -20,7 +20,7 @@ Note: The main board uses the same processor as the Adafruit Feather M0 Adalogge
    1. If this is not the case (either the computer isn't registering the device, there are multiple instances, etc.) go to the Restarting your board file.
 6. Select **File** > **Examples** > **Basics** > **Blink**
    1. Once the 'Blink' file opens, switch any 'LED_BUILTIN' statement for a '26.'
+      1. If LED 1 begins to blink, then you have been succesfull.
    ```
    Note: 26 is the pin designation for Red LED 1 on the board.
    ```
-      1. If LED 1 begins to blink, then you have been succesfull.
