@@ -15,6 +15,7 @@ For a long time little was known of white shark migration. They were thought to 
 ### The Team
 ![image](https://user-images.githubusercontent.com/52707386/63281976-b02f8a80-c262-11e9-96b2-6194bf342a09.png)
 ![image](https://user-images.githubusercontent.com/52707386/63282002-bf163d00-c262-11e9-8645-3ace08fee2c7.png)
-
+Gabriel Marcelo Santos Elizondo
+Trevor Fournier
 ### History (Timeline)
 include iterations leading up to newest design
