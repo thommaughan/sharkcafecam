@@ -7,7 +7,7 @@ To facilitate communication with a sensor you can download a library.
 Note: A library is a compilation of functions for a specific module or sensor. It allows for facilitated control of a device by offering the code to control it in more easily understood snippets. You can tell a library is being used if you see: #include <libraryname.h> at the top of the program. To figure out what functions are available in the library you can look up the library name online or look through its folder you downloaded.
 ```  
 ### Red Green Blue (RGB) sensor (ISL29125)
-![angled](https://user-images.githubusercontent.com/52707386/63301693-06ff8900-c290-11e9-8078-cf844ae5af6b.jpg)
+![RGB](https://user-images.githubusercontent.com/52707386/63302093-1c28e780-c291-11e9-88fd-69a57f3260c7.jpg)
 1. Download the SFE_ISL29125 folder from */Libraries.*
 2. Move the folder into your computer **Documents** > **Arduino** > **libraries**. Make sure both the .h and .cpp files are in the folder you're adding.
 3. Restart your Arduino IDE.
