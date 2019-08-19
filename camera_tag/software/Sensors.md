@@ -8,7 +8,7 @@ Note: A library is a compilation of functions for a specific module or sensor. I
 ```  
 ### Red Green Blue (RGB) sensor (ISL29125)
 ![RGB](https://user-images.githubusercontent.com/52707386/63302093-1c28e780-c291-11e9-88fd-69a57f3260c7.jpg)
-1. Download the SFE_ISL29125 folder from */Libraries.*
+1. Download the **SFE_ISL29125** folder from */Libraries.*
 2. Move the folder into your computer **Documents** > **Arduino** > **libraries**. Make sure both the .h and .cpp files are in the folder you're adding.
 3. Restart your Arduino IDE.
 4. On the IDE select **File** > **Examples** > **SFE_ISL29125** > **ISL29125_basics**
@@ -17,5 +17,11 @@ Note: A library is a compilation of functions for a specific module or sensor. I
    Note: if you want the readings as decimal values change 'HEX' to 'DEC' in the code.
    
 ### Inertial Measurement Unit (IMU) (MPU-9250)
-1. Download the ______ folder from */Libraries.*
-
+![MPU](https://user-images.githubusercontent.com/52707386/63302397-d4ef2680-c291-11e9-90c9-8af89acb0f88.jpg)
+1. Download the **SparkFun_MPU-9250** folder from */Libraries.*
+2. Move the folder into your computer **Documents** > **Arduino** > **libraries**. Make sure both the .h and .cpp files are in the folder you're adding. Check the src folder within.
+3. Restart your Arduino IDE.
+4. On the IDE select **File** > **Examples** > **SparkFun MPU-9250 9 DOF IMU Breakout ** > **MPU9250BasicsAHRS_I2C**
+5. Run the code
+   1. Open the serial monitor (ctrl+shift+m) to view the RGB sensor readings.  
+   Note: if you want the readings as decimal values change 'HEX' to 'DEC' in the code.
