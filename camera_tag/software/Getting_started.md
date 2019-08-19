@@ -13,7 +13,14 @@ Note: The main board uses the same processor as the Adafruit Feather M0 Adalogge
 
 #### Step 2: Test communication through LED
 1. Open the Arduino IDE
-2. Select **Tools** > **Board** > **Adafruit Feather M0**
-3. Make sure the **Tools** > **Port** reads > **Adafruit Feather M0**
+2. Connect the board (micro USB) to your computer (USB)
+3. Connect a battery to the board----------------------MORE ON THIS
+4. Select **Tools** > **Board** > **Adafruit Feather M0**
+5. Make sure the **Tools** > **Port** reads > **Adafruit Feather M0**
    1. If this is not the case (either the computer isn't registering the device, there are multiple instances, etc.) go to the Restarting your board file.
-4. 
+6. Select **File** > **Examples** > **Basics** > **Blink**
+   1. Once the 'Blink' file opens, switch any 'LED_BUILTIN' statement for a '26.'
+   ```
+   Note: 26 is the pin designation for Red LED 1 on the board.
+   ```
+      1. If LED 1 begins to blink, then you have been succesfull.
