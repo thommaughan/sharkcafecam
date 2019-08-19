@@ -1,5 +1,7 @@
 # Getting started with the board
 
+*Communicate is used in this guide as exchange of information between you and your board. Succesfull communication allows for full manipulation of the board and its components, whether gathering information, switching on/off, etc.*
+
 ### Materials: Computer, microcontroller (main board), USB to micro-USB cable.
 ### Objective: Communicate with your microcontroller and have it respond to test foor succesfull communication.
 
@@ -24,3 +26,4 @@ Note: The main board uses the same processor as the Adafruit Feather M0 Adalogge
    ```
    Note: 26 is the pin designation for Red LED 1 on the board.
    ```
+7. Now that you have succesfully communicated with the board, navigate to specific sensors or the general test code to communicate with other components on the board.
