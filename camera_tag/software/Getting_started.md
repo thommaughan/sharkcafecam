@@ -19,6 +19,8 @@ Note: The main board uses the same processor as the Adafruit Feather M0 Adalogge
 3. Connect a battery to the board----------------------MORE ON THIS
 ![20190819_105314](https://user-images.githubusercontent.com/52707386/63287986-76658080-c270-11e9-868f-2fd6761db1a0.jpg)
 ![20190819_105235](https://user-images.githubusercontent.com/52707386/63288025-8aa97d80-c270-11e9-940b-5117c6865c81.jpg)
+![20190819_110233](https://user-images.githubusercontent.com/52707386/63288356-54203280-c271-11e9-83fe-4e64694c0720.jpg)
+![20190819_110309](https://user-images.githubusercontent.com/52707386/63288360-55e9f600-c271-11e9-954d-1024d07e2489.jpg)
 4. Select **Tools** > **Board** > **Adafruit Feather M0**
 5. Make sure the **Tools** > **Port** reads > **Adafruit Feather M0**
    1. If this is not the case (either the computer isn't registering the device, there are multiple instances, etc.) go to the Restarting your board file.
