@@ -6,4 +6,10 @@ To facilitate communication with a sensor you can download a library.
 ```
 Note: A library is a compilation of functions for a specific module or sensor. It allows for facilitated control of a device by offering the code to control it in more easily understood snippets. You can tell a library is being used if you see: #include <libraryname.h> at the top of the program. To figure out what functions are available in the library you can look up the library name online or look through its folder you downloaded.
 ```
-1. Download the SparkFunISL29125.cpp
+1. Download the SFE_ISL29125 folder from */Libraries.*
+2. Move the folder into your computer **Documents** > **Arduino** > **libraries**. Make sure both the .h and .cpp files are in the folder you're adding.
+3. Restart your Arduino IDE.
+4. On the IDE select **File** > **Examples** > **SFE_ISL29125** > **ISL29125_basics**
+5. Run the code
+   1. Open the serial monitor (ctrl+shift+m) to view the RGB sensor readings
+   Note: if you want the readings as decimal values change 'HEX' to 'DEC' in the code.
