@@ -1,9 +1,9 @@
 # Getting started with the board
 
-*The word 'communicate' is used in this guide as: exchange of information between you and your board. Succesfull communication allows for full manipulation of the board and its components, whether gathering information, switching on/off, etc.*
+*The word 'communicate' is used in this guide as: exchange of information between you and your board. Succesful communication allows for full manipulation of the board and its components, whether gathering information, switching on/off, etc.*
 
 ### Materials: Computer, microcontroller (main board), USB to micro-USB cable.
-### Objective: Communicate with your microcontroller and have it respond to test for succesfull communication.
+### Objective: Communicate with your microcontroller and have it respond to test for succesful communication.
 
 #### Step 1: How to get set up (downloading the necessary drivers)
 https://learn.adafruit.com/adafruit-feather-m0-adalogger/setup
@@ -21,7 +21,7 @@ Note: The main board uses the same processor as the Adafruit Feather M0 Adalogge
    1. If this is not the case (either the computer isn't registering the device, there are multiple instances, etc.) go to the Restarting your board file.
 5. Select **File** > **Examples** > **Basics** > **Blink**
    1. Once the 'Blink' file opens, switch any 'LED_BUILTIN' statement for a '26.' Alternatively, open the *mod_Blink.ino* file availble in this repository within the *mod_Blink* folder.
-      1. If LED 1 begins to blink, then you have been succesfull.
+      1. If LED 1 begins to blink, then you have been succesful.
    ```
    Note: 26 is the pin designation for Red LED 1 on the board.
    ```
