@@ -11,5 +11,5 @@ Note: A library is a compilation of functions for a specific module or sensor. I
 3. Restart your Arduino IDE.
 4. On the IDE select **File** > **Examples** > **SFE_ISL29125** > **ISL29125_basics**
 5. Run the code
-   1. Open the serial monitor (ctrl+shift+m) to view the RGB sensor readings
+   1. Open the serial monitor (ctrl+shift+m) to view the RGB sensor readings.  
    Note: if you want the readings as decimal values change 'HEX' to 'DEC' in the code.
