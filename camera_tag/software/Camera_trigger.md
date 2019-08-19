@@ -6,3 +6,6 @@
 | R             | Record        | D4_IO_PWR     | Transistor drain  |
 | G             | Ground        | N/A           | Transistor Source |
 | P             | Power         | D9_IO_REC     | Transistor drain  |
+
+How to trigger FET (need to introduce what fet does and how)
+1. Set OUTPUT to D4_IO_PWR to HIGH
