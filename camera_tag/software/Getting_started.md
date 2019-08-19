@@ -3,7 +3,7 @@
 *The word 'communicate' is used in this guide as: exchange of information between you and your board. Succesfull communication allows for full manipulation of the board and its components, whether gathering information, switching on/off, etc.*
 
 ### Materials: Computer, microcontroller (main board), USB to micro-USB cable.
-### Objective: Communicate with your microcontroller and have it respond to test foor succesfull communication.
+### Objective: Communicate with your microcontroller and have it respond to test for succesfull communication.
 
 #### Step 1: How to get set up (downloading the necessary drivers)
 https://learn.adafruit.com/adafruit-feather-m0-adalogger/setup
