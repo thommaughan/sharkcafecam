@@ -1,7 +1,7 @@
 # Shark Café Cam
 
 ### Goal
-The goal of this open source guide is to enable people to build their own behavior triggered animal cameras that they can utilize for their own projects and purposes.
+The goal of this open source guide is to enable people to build their own behavior triggered animal cameras that they can utilize for their own projects and purposes. This open source is built with the mindset that It had enough information to where it can stand alone, yet benefits from further investigation.
 
 ### Behavior triggered camera tag
 The shark Cafe Cam is a behavior-triggered imaging system that was developed by MBARI engineers to study the behavior of white sharks (*Carcharodon carcharias*) during their stay in the north pacific. This system is intended to be modular, with the ability to be built from different components granted modification extends to the rest of the system. The purpose of these instructions is to allow someone to build a shark-mounted camera themselves. To learn what components are needed and how they’re put together and prepared. This system is intended to be low cost, light weight, retrievable and reusable.
