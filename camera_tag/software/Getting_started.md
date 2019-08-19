@@ -1,6 +1,6 @@
 # Getting started with the board
 
-*Communicate is used in this guide as exchange of information between you and your board. Succesfull communication allows for full manipulation of the board and its components, whether gathering information, switching on/off, etc.*
+*The word 'communicate' is used in this guide as: exchange of information between you and your board. Succesfull communication allows for full manipulation of the board and its components, whether gathering information, switching on/off, etc.*
 
 ### Materials: Computer, microcontroller (main board), USB to micro-USB cable.
 ### Objective: Communicate with your microcontroller and have it respond to test foor succesfull communication.
