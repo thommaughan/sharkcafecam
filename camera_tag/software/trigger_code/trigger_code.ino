@@ -7,7 +7,7 @@ Code by:
 Gabriel M. Santos E. and Thom Maughan
 
 Adapted from 'Blink' from the Arduino examples
-/*
+*/
 
 
 #define D9_IO_PWR       9       //9  //PA7  { PORTA,  7, PIO_ANALOG, (PIN_ATTR_PWM|PIN_ATTR_TIMER), ADC_Channel7, PWM1_CH1, TCC1_CH1, EXTERNAL_INT_7 }, // p12
