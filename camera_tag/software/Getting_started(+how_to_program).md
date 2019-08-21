@@ -5,7 +5,7 @@
 ### Materials: Computer, microcontroller (main board), USB to micro-USB cable.
 ### Objective: Communicate with your microcontroller and have it respond to test for succesful communication.
 
-### *In an effort to get straight to programing the board we will offer a condensed version of getting started with the Arduino integrated development environment (IDE). The Arduino IDE is a platform created by Arduino to interface with a variety of microcontrollers.*
+ *In an effort to get straight to programing the board we will offer a condensed version of getting started with the Arduino integrated development environment (IDE). The Arduino IDE is a platform created by Arduino to interface with a variety of microcontrollers.*
 
 #### 3 Step 1: Download the Arduino IDE
 Go to [Arduino Main Page](https://www.arduino.cc/en/main/software) and scroll down to:
