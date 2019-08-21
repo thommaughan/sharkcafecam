@@ -37,3 +37,7 @@ There’s two important pages in the Adafruit instructions ‘Arduino IDE setup�
 - **File** > **Examples** for pre-built code that you can use
 - **Help** > **Reference** for function names and descriptions
 - **Help** > **Troubleshooting**
+##### General
+ - [Arduino](https://www.arduino.cc/en/Guide/ArduinoUno)
+ - [Adafruit lessons](https://learn.adafruit.com/series/learn-arduino)
+ - [SparkFun](https://learn.sparkfun.com/tutorials)
