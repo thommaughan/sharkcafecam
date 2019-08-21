@@ -39,11 +39,9 @@ Note on camera trigger transistors: they allow for switching the camera on/off a
 | TPS22918            | Load Switch         | U8     | Details in datasheet  | [TPS22918](http://www.ti.com/product/TPS22918)  |
 | 2N7002BKS           | MOSFET         | D9_IO_REC     | Transistor drain  | [2N7002BKS](https://assets.nexperia.com/documents/data-sheet/2N7002BKS.pdf)  |
 | ZXCT1109            | Current sense monitor         |   U9   | Details in datasheet  | [ZXCT1109](https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf)  |
-| TPS78033            | LDO regulator         | D9_IO_REC     | Transistor drain  | https://www.alldatasheet.com/view.jsp?Searchword=TPS78033&sField=2  |
-| MCP73831            | Charge Management controller         | D9_IO_REC     | Transistor drain  | https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf  |
-| SD connector        | Power         | D9_IO_REC     | Transistor drain  |
-| Micro USB                | Power         | D9_IO_REC     | Transistor drain  |
-| 2N7002BKS             | Power         | D9_IO_REC     | Transistor drain  |
-
+| TPS78033            | LDO regulator         | U7     | Details in datasheet  | [TPS78033](https://www.findchips.com/detail/tps78033/2477-Texas%20Instruments?quantity=1)  |
+| MCP73831            | Charge Management controller         |  U3    | Details in datasheet  | [MCP73831](https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf)  |
+| SD connector        | Micro SD card connector         | Pins for soldering MicroSD card on.     | J9  | N/A  |
+| USB-MICROB 5v                | Data transfer and power with computer         | J6     | Micro USB connector port  | N/A  |
    
  For information on how to communicate with the board and each sensor, check out the software section
