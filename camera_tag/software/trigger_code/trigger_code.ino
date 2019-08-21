@@ -1,4 +1,4 @@
-*/
+/*
 This sample code will turn on a camera, wait, record, wait, then turn off. This will be repeated indefinately.
 This code snippet is to show the pin designation and command necessary to access these transistors.
 You may incorporate this code into logical statements to turn a device on when a certain condition is met.
