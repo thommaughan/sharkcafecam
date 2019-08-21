@@ -6,4 +6,4 @@
 
 ## How to use these files
 
-[I'm an inline-style link](https://www.solidworks.com)
+[Solid Works Software](https://www.solidworks.com)
