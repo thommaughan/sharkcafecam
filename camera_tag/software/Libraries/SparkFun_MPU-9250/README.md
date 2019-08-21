@@ -1,3 +1,5 @@
+README and files from SparkFun
+
 MPU-9250 9 DOF IMU Arduino Library
 ==================================
 
