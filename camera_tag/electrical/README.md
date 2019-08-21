@@ -1,10 +1,15 @@
 # Shark Cafe Cam Main Board Information
-## Index
+## Files
 1. Schematic
 2. Board design
-#### Internal
+#### Internal components
+
 1. Processor
 2. Sensors  
+3. Camera trigger
+```
+Note on camera trigger transistors: they allow for switching the camera on/off and record/stop. These transistors work by allowing current to flow through the camera when they are triggered. In a way they act as an electrical switch, when power is sent to them you're flipping the switch 'on', thus activating the camera, when no power is sent, the switch is flipped 'off' and the camera disactivates.
+```
 
 ### Processor
 
