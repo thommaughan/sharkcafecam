@@ -21,11 +21,11 @@ void setup() {
 // the loop function runs over and over again forever
 // code that turns the camera on, waits, then turns it off. This same code can be applied to the other trigger pin.
 void loop() {
-  delay(5000);                      // wait 5 seconds
+  delay(5000);                      // wait 5 seconds (every 1000 is 1 second)
   digitalWrite(D9_IO_PWR, HIGH);    // press the camera 'power' button to turn the camera on
   delay(100);                       // wait for a 1/10th second
   digitalWrite(D9_IO_PWR, LOW);     // stop pressing the button (if you were to hold the button down some cameras would turn on then off)
-  delay(6000);                      // wait for the camera to boot up (6 seconds in this case)
+  delay(10000);                      // wait for the camera to boot up (6 seconds in this case, + 4 added to see camera on)
   digitalWrite(D9_IO_PWR, HIGH);    // press the camera 'power' button to turn the camera off 
   delay(5000);                      // wait for 5 seconds (in some cameras pressing the power button for a longer time, turns the camera off)
   digitalWrite(D9_IO_PWR, LOW);     // stop pressing the button
