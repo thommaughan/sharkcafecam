@@ -14,7 +14,8 @@ Select the appropriate download for your system and follow the instructions.
 
 #### Step 2: How to get set up (downloading the necessary drivers)
 https://learn.adafruit.com/adafruit-feather-m0-adalogger/setup
-There’s two important pages in the Adafruit instructions ‘Arduino IDE setup’ and ‘Using with Arduino IDE’. Follow the first ‘Arduino IDE setup’, download the arduino software. Then, for the specific drivers go to the next page of the guide 'Using with Arduino IDE.' There is also an arrow at the end of the page that will take you to it. Make sure to go through the setup **step by step** to the end of each page.
+There’s two important pages in the Adafruit instructions ‘Arduino IDE setup’ and ‘Using with Arduino IDE’. Follow the first ‘Arduino IDE setup’, download the arduino software. Then, for the specific drivers go to the next page of the guide 'Using with Arduino IDE.' There is also an arrow at the end of the page that will take you to it. Make sure to go through the setup **step by step** to the end of each page.  
+
 First step in downloading the drivers:  
 ![image](https://user-images.githubusercontent.com/52707386/63464969-24119480-c415-11e9-8f2d-ea9112da1476.png)  
 Note: this address needs to be added to your preferences on the Arduino IDE for the Adafruit drivers to appear in your boards manager.
