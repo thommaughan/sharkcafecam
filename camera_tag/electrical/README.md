@@ -2,7 +2,7 @@
 ## Files
 1. Schematic
 2. Board design
-#### Internal components
+## Internal components
 
 1. Processor
 2. Sensors  
@@ -14,13 +14,13 @@ Note on camera trigger transistors: they allow for switching the camera on/off a
 ### Processor
 
 | Part         | Function          | Board Code    | Description       | Link and part number      |
-| --------------------|:-------------:| -------------|-----------------|----------------- |
+| --------------------|:-------------:|:-------------:|-----------------|----------------- |
 | ![image](https://user-images.githubusercontent.com/52707386/63448839-b143f180-c3f3-11e9-8a64-d5150a3e8d03.png) | Processor | N/A | Central processing. Same processor found in Feather M0, can be accessed as such through Arduino IDE.| ATSAMD21G18A |
 
 ### Sensors
 
 | Part breakout board         | Function          | Board Code    | Description       | Link and part number      |
-| --------------------|:-------------:| -------------|-----------------|---------------------------|
+| --------------------|:-------------:|:-------------:|-----------------|:---------------------------:|
 | ![image](https://user-images.githubusercontent.com/52707386/63448032-f23b0680-c3f1-11e9-9f2b-210ce0e2d542.png)  | RGB sensor  | U1  | Red, green, blue light sensor  |  [ISL29125](https://www.sparkfun.com/products/12829)   |
 | ![image](https://user-images.githubusercontent.com/52707386/63448396-ab014580-c3f2-11e9-9538-76c5c1f9470b.png)  | IMU        | U4           | Accelerometer, gyroscope, and compass | [MPU-9250](https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/)   |
 | ![image](https://user-images.githubusercontent.com/52707386/63448686-4c889700-c3f3-11e9-99aa-de4e05dbfba7.png)  | Capacitive sensing         |   U6   | 4 Channel Capacitance to Digital Converter  | [FDC1004](http://www.ti.com/product/FDC1004)  |
@@ -44,4 +44,4 @@ Note on camera trigger transistors: they allow for switching the camera on/off a
 | Direct wire uSD connect        | Micro SD card connector         | Pins for soldering MicroSD card on.     | J9  | N/A  |
 | USB-MICROB 5v                | Data transfer and power with computer         | J6     | Micro USB connector port  | N/A  |
    
- For information on how to communicate with the board and each sensor, check out the software section
+ ### *For information on how to communicate with the board and each sensor, check out the software section*
