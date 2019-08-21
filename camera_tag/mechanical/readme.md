@@ -10,4 +10,6 @@ As stated before, these files were created using the Solid Works Software which 
 
 [Solid Works Software](https://www.solidworks.com)
 
-[3D Printing Services](https://3space.com/3d-printing-ppc?gclid=CjwKCAjw1_PqBRBIEiwA71rmte2ELk5xJ86E6CFk6ArePkv97ztjzFWGFQ25XP00T4se_XzOaefN1xoC2_sQAvD_BwE)
+Below is a link to a 3D printing services. This is merely an example of one company. The parts for the camera housing were printed in house at the Monterey Bay Aquarium Research Institute. Use this link below as merely an example of the 3D printing services and research other alternatives if you decide to use this model. 
+
+[3 Space Printing Service](https://3space.com/3d-printing-ppc?gclid=CjwKCAjw1_PqBRBIEiwA71rmte2ELk5xJ86E6CFk6ArePkv97ztjzFWGFQ25XP00T4se_XzOaefN1xoC2_sQAvD_BwE)
