@@ -27,7 +27,7 @@ Note on camera trigger transistors: they allow for switching the camera on/off a
 
 ### Trigger (for camera or other device. Transistor.)
 
-| Part breakout board         | Function          | Board Code    | Description       | Link and part number      |
+| Location on board         | Function          | Board Code    | Description       | Link and part number      |
 | --------------------|:-------------:| -------------|-----------------|---------------------------|
 | ![Cam Trigger](https://user-images.githubusercontent.com/52707386/63304094-b63f5e80-c296-11e9-8e68-4f7866a1bdb1.jpg)  |  2 FETs, one turns the camera on/off and the other records/stops.  | CAM1  | Trigger for camera. R and P are transistor drains, G is the common source.  |  [Transistors](https://learn.sparkfun.com/tutorials/transistors/all#extending-the-water-analogy)   |
 
@@ -44,4 +44,4 @@ Note on camera trigger transistors: they allow for switching the camera on/off a
 | Direct wire uSD connect        | Micro SD card connector         | Pins for soldering MicroSD card on.     | J9  | N/A  |
 | USB-MICROB 5v                | Data transfer and power with computer         | J6     | Micro USB connector port  | N/A  |
    
- ### *For information on how to communicate with the board and each sensor, check out the software section*
+ ### *For information on how to communicate with the board and each sensor, check out the software section.*
