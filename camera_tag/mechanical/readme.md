@@ -6,4 +6,8 @@
 
 ## How to use these files
 
+As stated before, these files were created using the Solid Works Software which is linked below. This is a professional software platform that is used widely in many industries.
+
 [Solid Works Software](https://www.solidworks.com)
+
+[3D Printing Services](https://3space.com/3d-printing-ppc?gclid=CjwKCAjw1_PqBRBIEiwA71rmte2ELk5xJ86E6CFk6ArePkv97ztjzFWGFQ25XP00T4se_XzOaefN1xoC2_sQAvD_BwE)
