@@ -29,17 +29,16 @@ Note on camera trigger transistors: they allow for switching the camera on/off a
 
 | Part breakout board         | Function          | Board Code    | Description       | Link and part number      |
 | --------------------|:-------------:| -------------|-----------------|---------------------------|
-| ![Cam Trigger](https://user-images.githubusercontent.com/52707386/63304094-b63f5e80-c296-11e9-8e68-4f7866a1bdb1.jpg)  |  2 FETs  | CAM1  | Trigger for camera. R and P are transistor drains, G is the common source.  |  [Transistors](https://learn.sparkfun.com/tutorials/transistors/all#extending-the-water-analogy)   |
+| ![Cam Trigger](https://user-images.githubusercontent.com/52707386/63304094-b63f5e80-c296-11e9-8e68-4f7866a1bdb1.jpg)  |  2 FETs, one turns the camera on/off and the other records/stops.  | CAM1  | Trigger for camera. R and P are transistor drains, G is the common source.  |  [Transistors](https://learn.sparkfun.com/tutorials/transistors/all#extending-the-water-analogy)   |
 
 ### Electrical components
 
 | Part Number         | Function          | Board Code    | Description       | Link       |
 | --------------------|:-------------:| -------------|-----------------|----------------- |
-| SN74LVC2G66DCUR            | Dual Bilateral Analog Switch         | U5    | Details in Datasheet  | http://www.ti.com/lit/ds/symlink/sn74lvc2g66.pdf  |
-| isBUS               | Power         | D9_IO_REC     | Transistor drain  | Transistor drain  |
-| TPS22918            | Load Switch         | XXXXX     | Transistor drain  | Transistor drain  |
-| 2N7002BKS           | MOSFET         | D9_IO_REC     | Transistor drain  | https://assets.nexperia.com/documents/data-sheet/2N7002BKS.pdf  |
-| ZXCT1109            | Power         | current sense monitor     | Transistor drain  | https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf  |
+| SN74LVC2G66DCUR  | Switch         | U5    | Dual Bilateral Analog Switch  | [SN74LVC2G66DCUR](http://www.ti.com/lit/ds/symlink/sn74lvc2g66.pdf)  |
+| TPS22918            | Load Switch         | U8     | Details in datasheet  | [TPS22918](http://www.ti.com/product/TPS22918)  |
+| 2N7002BKS           | MOSFET         | D9_IO_REC     | Transistor drain  | [2N7002BKS](https://assets.nexperia.com/documents/data-sheet/2N7002BKS.pdf)  |
+| ZXCT1109            | Current sense monitor         |   U9   | Details in datasheet  | [ZXCT1109](https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf)  |
 | TPS78033            | LDO regulator         | D9_IO_REC     | Transistor drain  | https://www.alldatasheet.com/view.jsp?Searchword=TPS78033&sField=2  |
 | MCP73831            | Charge Management controller         | D9_IO_REC     | Transistor drain  | https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf  |
 | SD connector        | Power         | D9_IO_REC     | Transistor drain  |
