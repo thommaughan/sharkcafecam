@@ -24,9 +24,7 @@
 
 | Part breakout board         | Function          | Board Code    | Description       | Link and part number      |
 | --------------------|:-------------:| -------------|-----------------|---------------------------|
-| ![image](https://user-images.githubusercontent.com/52707386/63448032-f23b0680-c3f1-11e9-9f2b-210ce0e2d542.png)  | RGB sensor  | U1  | Red, green, blue light sensor  |  [ISL29125](https://www.sparkfun.com/products/12829)   |
-| ![image](https://user-images.githubusercontent.com/52707386/63448396-ab014580-c3f2-11e9-9538-76c5c1f9470b.png)  | IMU        | U4           | Accelerometer, gyroscope, and compass | [MPU-9250](https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/)   |
-| ![image](https://user-images.githubusercontent.com/52707386/63448686-4c889700-c3f3-11e9-99aa-de4e05dbfba7.png)  | Capacitive sensing         |   U6   | 4 Channel Capacitance to Digital Converter  | [FDC1004](http://www.ti.com/product/FDC1004)  |
+| ![Cam Trigger](https://user-images.githubusercontent.com/52707386/63304094-b63f5e80-c296-11e9-8e68-4f7866a1bdb1.jpg)  |  2 FETs  | CAM1  | Trigger for camera. R and P are transistor drains, G is the common source.  |  [Transistors](https://learn.sparkfun.com/tutorials/transistors/all#extending-the-water-analogy)   |
 
 ### Electrical components
 
