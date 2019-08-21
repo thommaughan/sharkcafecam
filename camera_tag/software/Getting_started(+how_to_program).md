@@ -38,6 +38,7 @@ There’s two important pages in the Adafruit instructions ‘Arduino IDE setup�
 - **Help** > **Reference** for function names and descriptions
 - **Help** > **Troubleshooting**
 ##### General
+ - [TechFest](https://github.com/practicaltech/TechFest)
  - [Arduino](https://www.arduino.cc/en/Guide/ArduinoUno)
  - [Adafruit lessons](https://learn.adafruit.com/series/learn-arduino)
  - [SparkFun](https://learn.sparkfun.com/tutorials)
