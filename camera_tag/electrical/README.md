@@ -41,7 +41,7 @@ Note on camera trigger transistors: they allow for switching the camera on/off a
 | ZXCT1109            | Current sense monitor         |   U9   | Details in datasheet  | [ZXCT1109](https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf)  |
 | TPS78033            | LDO regulator         | U7     | Details in datasheet  | [TPS78033](https://www.findchips.com/detail/tps78033/2477-Texas%20Instruments?quantity=1)  |
 | MCP73831            | Charge Management controller         |  U3    | Details in datasheet  | [MCP73831](https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf)  |
-| SD connector        | Micro SD card connector         | Pins for soldering MicroSD card on.     | J9  | N/A  |
+| Direct wire uSD connect        | Micro SD card connector         | Pins for soldering MicroSD card on.     | J9  | N/A  |
 | USB-MICROB 5v                | Data transfer and power with computer         | J6     | Micro USB connector port  | N/A  |
    
  For information on how to communicate with the board and each sensor, check out the software section
