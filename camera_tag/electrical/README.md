@@ -33,7 +33,7 @@ Note on camera trigger transistors: they allow for switching the camera on/off a
 
 ### Electrical components
 
-| Part Number         | Function          | Board Code    | Description       | Link       |
+| Part Number/Name         | Function          | Board Code    | Description       | Link       |
 |:--------------------:|:-------------:|:-------------:|:-----------------:|:-----------------:|
 | SN74LVC2G66DCUR  | Switch         | U5    | Dual Bilateral Analog Switch  | [SN74LVC2G66DCUR](http://www.ti.com/lit/ds/symlink/sn74lvc2g66.pdf)  |
 | TPS22918            | Load Switch         | U8     | Details in datasheet  | [TPS22918](http://www.ti.com/product/TPS22918)  |
