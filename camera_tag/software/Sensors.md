@@ -21,6 +21,6 @@ Note: A library is a compilation of functions for a specific module or sensor. I
 1. Download the **SparkFun_MPU-9250** folder from */Libraries.*
 2. Move the folder into your computer **Documents** > **Arduino** > **libraries**. Make sure both the .h and .cpp files are in the folder you're adding. Check the src folder within.
 3. Restart your Arduino IDE.
-4. On the IDE select **File** > **Examples** > **SparkFun MPU-9250 9 DOF IMU Breakout** > **MPU9250BasicsAHRS_I2C**
-5. Run the code
-   1. 
+4. Download the **IMU_code** sketch from */software.*
+5. Run **IMU_code** to receive IMU measurement values.
+   1. Open the serial monitor (ctrl+shift+m) to view the sensor readings.
