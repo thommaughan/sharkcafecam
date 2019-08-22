@@ -4,7 +4,6 @@
 
 #include <SPI.h>    // uSD
 #include <SD.h>
-#include "wiring_private.h" //pinPeripheral() function for serial2 pin mux
 #include <Wire.h>   // i2c
 #include "quaternionFilters.h"
 #include "MPU9250.h"
