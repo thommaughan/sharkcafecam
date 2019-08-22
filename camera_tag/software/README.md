@@ -1,6 +1,6 @@
-For what's available on the board, navigate to camera_tag/electrical.
+For what's available on the board, navigate to **camera_tag/electrical**.
 
-To get started with coding, head to software/Getting_started(+how_to_program)
+To get started with coding, head to **software/Getting_started(+how_to_program)**.
 
 
 ![boardforedit](https://user-images.githubusercontent.com/52707386/63532795-51ffe300-c4c0-11e9-8d58-e555123219af.jpg)  
