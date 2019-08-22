@@ -1,2 +1,6 @@
 ## For what's available on the board, navigate to camera_tag/electrical.
--This is written assuming you know how to navigate the Arduino IDE, if this is not the case, don't worry. This ((())) link will help you get familiar  with it.
+-This is written assuming you know how to navigate the Arduino IDE, if this is not the case, don't worry. This ((())) link will help you get familiar  with it.  
+
+
+![boardforedit](https://user-images.githubusercontent.com/52707386/63532795-51ffe300-c4c0-11e9-8d58-e555123219af.jpg)  
+The purpose of using the same processor as the Feather M0 is so that you can communicate with this board through Arduino as you would with the M0. In other words, installing the drivers for the M0 will allow you to communicate with the main board for the camera tag.
