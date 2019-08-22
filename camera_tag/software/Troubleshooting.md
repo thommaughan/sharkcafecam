@@ -21,5 +21,8 @@ Common issues and how to resolve them
    
 4. Upload process stuck
    1. board selection
+      Make sure the correct board is selected (refer to image on 'Port')
    2. code
+      Your code might have an error, try a sketch you know runs to test if this is actually the problem.
    3. Restart
+      Close all IDE instances and restart.
