@@ -9,10 +9,16 @@ Common issues and how to resolve them
 
 2. Code not uploading 
    1. Board selected
-      ![image](https://user-images.githubusercontent.com/52707386/63554976-17b03900-c4f4-11e9-974f-7607ca5a4909.png)
       Make sure the board selected is the **Adafruit Feather M0**
+      ![image](https://user-images.githubusercontent.com/52707386/63554976-17b03900-c4f4-11e9-974f-7607ca5a4909.png)
+
    2. Port
+   Make sure the port with the board is selected  
+   ![image](https://user-images.githubusercontent.com/52707386/63555094-7aa1d000-c4f4-11e9-97f7-20fb0d5a561c.png)
+   
 3. Multiple instances appear of board on same port
+   1. Save your file, close all instances of the Arduino IDE and restart the program.
+   
 4. Upload process stuck
    1. board selection
    2. code
