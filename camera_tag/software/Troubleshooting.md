@@ -4,6 +4,9 @@ Common issues and how to resolve them
 1. Board not recognized on IDE
    1. Restart
       With the board connected to your computer. Run a simple program on the IDE such as **Blink_mod,** then click on upload (the arrow on the top left). Then, while the load procedure is goig through 'compiling sketch' touch a wire from RESTART to GROUND twice in quick succession.
+      ![edit2](https://user-images.githubusercontent.com/52707386/63554840-a1abd200-c4f3-11e9-9721-d27e66fb61fc.jpg)
+![20190822_153921](https://user-images.githubusercontent.com/52707386/63554845-a4a6c280-c4f3-11e9-9f2f-c9955bdaa593.jpg) 
+
    2. Drivers
 2. Code not uploading 
    1. Board selected
