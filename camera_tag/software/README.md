@@ -1,4 +1,4 @@
-For what's available on the board, navigate to **camera_tag/electrical**.
+For what's available on the board, navigate to [**camera_tag/electrical**](https://github.com/thommaughan/sharkcafecam/tree/master/camera_tag/electrical).
 
 To get started with coding, head to [**software/Getting_started(+how_to_program)**](https://github.com/thommaughan/sharkcafecam/blob/master/camera_tag/software/Getting_started(%2Bhow_to_program).md).
 
