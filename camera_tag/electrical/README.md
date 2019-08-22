@@ -17,6 +17,8 @@ Note on camera trigger transistors: they allow for switching the camera on/off a
 | --------------------|:-------------:|:-------------:|-----------------|----------------- |
 | ![image](https://user-images.githubusercontent.com/52707386/63448839-b143f180-c3f3-11e9-8a64-d5150a3e8d03.png) | Processor | N/A | Central processing. Same processor found in Feather M0, can be accessed as such through Arduino IDE.| ATSAMD21G18A |
 
+![boardforedit](https://user-images.githubusercontent.com/52707386/63532795-51ffe300-c4c0-11e9-8d58-e555123219af.jpg)
+
 ### Sensors (included)
 
 | Part breakout board         | Function          | Board Code    | Description       | Link and part number      |
