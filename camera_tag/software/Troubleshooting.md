@@ -10,7 +10,8 @@ Common issues and how to resolve them
    1. Board selected: make sure the board selected is the **Adafruit Feather M0**
  ![image](https://user-images.githubusercontent.com/52707386/63554976-17b03900-c4f4-11e9-974f-7607ca5a4909.png)  
 
-##  
+###  
+###  
    2. Port: make sure the port with the board is selected   
    
   
