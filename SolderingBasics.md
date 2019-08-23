@@ -32,8 +32,8 @@ This first part will describe how to connect two wires together. This will requi
 
 ## Step 1: Stripping the wires
 Hold the wire and place the wires strippers around the corresponding wire size. You will need to go a few size up meaning that if you are using a 22AWG (American Wire Gauges) then you will most likely use the 24 or 26 size cutting surface. Squeeze the wires cutters just as you would squeeze a pair of scissors and gently move the wire strippers away from the wire. 
-![image]
-![image]
+![image](Developmental_Folder/Wire_Stripping_1.jpg)
+![image](Developmental_Folder/Wire_Stripping_2.jpg)
 
 ## Step 2: Setting up the Soldering Iron/ Soldering Iron Station
 Make sure that the soldering iron is in it's holder and follow the instructions provided by the manufacture if you purchased that soldering iron. 
