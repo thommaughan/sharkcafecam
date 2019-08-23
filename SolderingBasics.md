@@ -36,7 +36,10 @@ As you read through the following steps you will need to periodically clean the 
 ![image](Developmental_Folder/Cleaning_With_Brush.jpg)
 ![image](Developmental_Folder/Cleaning_Sponge.jpg)
 
-## Using the Soldering Wick
+## Removing Solder
+Below we describe how to use the soldering wick but if you purchase the soldering kit from our ToolList it comes with a manual desoldering pump. the following link shows a video on how to use this device and also more detail about using Soldering Wick.
+[Desoldering Techniques](https://www.youtube.com/watch?v=Z38WsZFmq8E)
+
 To use the Soldering Wick place the soldering wick between the connection you wish to remove and the soldering iron tip as shown below. This will cause the soldering to move from the connection to the soldering wick or soldering iron. After that section of wick is encompassed in solder, cut this section and dispose of. 
 ![image](Developmental_Folder/Removing_Soldering_with_Wick.jpg)
 
