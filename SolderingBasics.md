@@ -12,7 +12,8 @@ This is the heated element that melts the solder. The tip of this tool becomes e
 store this tool while it is hot. 
 
 ### Soldering
-![image]
+![image](Developmental_Folder/Solder.JPG)
+This image shows soldering that is set up in holder. Soldering comes in varying thickness.
 
 ### Soldering Station
 ![image](Developmental_Folder/Soldering_Station.JPG)
