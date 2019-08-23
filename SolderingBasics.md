@@ -27,10 +27,18 @@ This cleaning station removes oxidized soldering which you should do each time b
 ![image](Developmental_Folder/Wire_Strippers.jpg)
 This tools removes the plastic jacket that covers most wires. There are a series of cutting size that match the gauge of the wire. This will allow you to cut through the plastic jacket without cutting through the wire. 
 
+### Soldering Wick
+![image](Developmental_Folder/Solder_Wick.jpg)
+This is used to remove solder from connections or electrical components. How to use this is described below the "Cleaning the Soldering Iron" Section. 
+
 ## Cleaning the Soldering Iron
 As you read through the following steps you will need to periodically clean the oxidized solder off of the tip or your soldering iron. With out cleaning station we have both a wire brush and a wet sponge. With the wire brush, merely scrape the end of the tip against the wire brush as shown below. With the wet sponge, drag the tip against the wet sponge to remove the old solder. It is important that the sponge is wet. 
 ![image](Developmental_Folder/Cleaning_With_Brush.jpg)
 ![image](Developmental_Folder/Cleaning_Sponge.jpg)
+
+## Using the Soldering Wick
+To use the Soldering Wick place the soldering wick between the connection you wish to remove and the soldering iron tip as shown below. This will cause the soldering to move from the connection to the soldering wick or soldering iron. After that section of wick is encompassed in solder, cut this section and dispose of. 
+![image](Developmental_Folder/Removing_Soldering_with_Wick.jpg)
 
 # Soldering two wires together (Tinning Technique)
 This first part will describe how to connect two wires together. This will require you to tin both wires and then melt them together to create the electrical contact. 
