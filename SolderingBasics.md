@@ -32,6 +32,7 @@ Make sure that the soldering iron is in it's holder and follow the instructions 
 
 ## Step 2: Priming the Soldering Iron
 Once the soldering Iron is hot and ready for you you will need to prime the time. You perform this task by melting a small amount of soldering onto the soldering iron tip. 
+![image]
 
 
 
