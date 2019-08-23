@@ -27,13 +27,23 @@ This cleaning station removes oxidized soldering which you should do each time b
 ![image](Developmental_Folder/Wire_Strippers.jpg)
 This tools removes the plastic jacket that covers most wires. There are a series of cutting size that match the gauge of the wire. This will allow you to cut through the plastic jacket without cutting through the wire. 
 
-## STep 1: Setting up the Soldering Iron/ Soldering Iron Station
-Make sure that the soldering iron is in it's holder and follow the instructions provided by the manufacture if you purchased that soldering iron. 
+# Soldering two wires together (Tinning Technique)
+This first part will describe how to connect two wires together. This will require you to tin both wires and then melt them together to create the electrical contact. 
 
-## Step 2: Priming the Soldering Iron
-Once the soldering Iron is hot and ready for you you will need to prime the time. You perform this task by melting a small amount of soldering onto the soldering iron tip. 
+## Step 1: Stripping the wires
+Hold the wire and place the wires strippers around the corresponding wire size. You will need to go a few size up meaning that if you are using a 22AWG (American Wire Gauges) then you will most likely use the 24 or 26 size cutting surface. Squeeze the wires cutters just as you would squeeze a pair of scissors and gently move the wire strippers away from the wire. 
+![image]
 ![image]
 
+## Step 2: Setting up the Soldering Iron/ Soldering Iron Station
+Make sure that the soldering iron is in it's holder and follow the instructions provided by the manufacture if you purchased that soldering iron. 
+
+## Step 3: Priming the Soldering Iron
+Once the soldering Iron is hot and ready for you you will need to prime the time. You perform this task by melting a small amount of soldering onto the soldering iron tip. Only hold this for about 2 to 3 seconds and make sure that is a not a large blob. 
+![image](Developmental_Folder/Tinning_Iron_True.jpg)
+
+## Step 4: Tinning each of the wires
+If you have purchased the third hand then that device will come in very useful however, it is not necessary. After priming the soldering iron tip, tin the two wires by holding the tip against the exposed wires and placing the solderin opposite of the soldering iron. This will cause the soldering to melt through wire. 
 
 
 
