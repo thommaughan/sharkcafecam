@@ -11,6 +11,9 @@ purpose. The images shown below are the tools that were used to create some of t
 This is the heated element that melts the solder. The tip of this tool becomes extremely hot so please make sure that you know where this tool is at all times and be very careful when handling. Most times, these tools will come with some type of holder that will allow you to 
 store this tool while it is hot. 
 
+### Soldering
+![image]
+
 ### Soldering Station
 ![image](Developmental_Folder/Soldering_Station.JPG)
 Some Soldering Irons come with a soldering station while others may not. A soldering station usually controls the temperature of the soldering iron and also provides a stand which to place the soldering when not in use.
@@ -22,6 +25,12 @@ This cleaning station removes oxidized soldering which you should do each time b
 ### Wire Strippers
 ![image](Developmental_Folder/Wire_Strippers.jpg)
 This tools removes the plastic jacket that covers most wires. There are a series of cutting size that match the gauge of the wire. This will allow you to cut through the plastic jacket without cutting through the wire. 
+
+## STep 1: Setting up the Soldering Iron/ Soldering Iron Station
+Make sure that the soldering iron is in it's holder and follow the instructions provided by the manufacture if you purchased that soldering iron. 
+
+## Step 2: Priming the Soldering Iron
+Once the soldering Iron is hot and ready for you you will need to prime the time. You perform this task by melting a small amount of soldering onto the soldering iron tip. 
 
 
 
