@@ -54,6 +54,12 @@ At this point it is a good practice to cover this joint with electrical tape or 
 
 [How to use Heat Shrink](https://www.youtube.com/watch?v=LD9kBax1DDk)
 
+# Soldering Wires to Components
+This section merely shows a quick example of how to solder wires to electrical components. First of all, prime your soldering iron, strip your wire and tin the exposed wire. Next hold the tinned wire to the spot which you would like to solder your wire. Next hold the soldering iron to the tinned wire and the metal contact section that you would like to solder to. The pictures below show two wires being soldering to opposing terminals of what was once contacting a switch. Do not hold the soldering wire for long peroids of times agains electronical components. These components maybe sensitive to heat so 2 to 3 seconds preferable time scale as to not over heat components.
+![image](Developmental_Folder/Soldering_onto_electronics_1.jpg)
+![image](Developmental_Folder/Soldering_onto_electronics_2.jpg)
+
+
 
 
 
