@@ -28,7 +28,7 @@ This cleaning station removes oxidized soldering which you should do each time b
 This tools removes the plastic jacket that covers most wires. There are a series of cutting size that match the gauge of the wire. This will allow you to cut through the plastic jacket without cutting through the wire. 
 
 ### Soldering Wick
-![image](Developmental_Folder/Solder_Wick.jpg)
+![image](Developmental_Folder/Solder_Wick.JPG)
 This is used to remove solder from connections or electrical components. How to use this is described below the "Cleaning the Soldering Iron" Section. 
 
 ## Cleaning the Soldering Iron
