@@ -6,7 +6,7 @@
 
 ## How to use these files
 
-As stated before, these files were created using the Solid Works Software which is linked below. This is a professional software platform that is used widely in many industries.
+As stated before, these files were created using the Solid Works Software which is linked below. This is a professional software platform that is used widely in many industries. A key take away from these files are to have a visual of how this version of this shark cafe camera was assembled. If you have 3-D manipulation/drafting experience, feel free use these files to create your own housing. 
 
 [Solid Works Software](https://www.solidworks.com)
 
