@@ -6,8 +6,7 @@ lead free. Each type has a different type of chemical composition. Listed below 
 purpose. 
 
 ## Soldering Iron
-
-## Soldering Station
+https://github.com/thommaughan/sharkcafecam/issues/1#issue-484333870## Soldering Station
 
 ## Soldering cleaning station featuring brush wire and sponge
 
