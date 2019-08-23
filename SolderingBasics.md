@@ -31,7 +31,7 @@ This tools removes the plastic jacket that covers most wires. There are a series
 This first part will describe how to connect two wires together. This will require you to tin both wires and then melt them together to create the electrical contact. 
 
 ## Step 1: Stripping the wires
-Hold the wire and place the wires strippers around the corresponding wire size. You will need to go a few size up meaning that if you are using a 22AWG (American Wire Gauges) then you will most likely use the 24 or 26 size cutting surface. Squeeze the wires cutters just as you would squeeze a pair of scissors and gently move the wire strippers away from the wire. 
+Hold the wire about an 1/8th of and inch from the end of each wire and place the wires strippers around the corresponding wire size. You will need to go a few size up meaning that if you are using a 22AWG (American Wire Gauges) then you will most likely use the 24 or 26 size cutting surface. Squeeze the wires cutters just as you would squeeze a pair of scissors and gently move the wire strippers away from the wire. 
 ![image](Developmental_Folder/Wire_Stripping_1.jpg)
 ![image](Developmental_Folder/Wire_Stripping_2.jpg)
 
@@ -44,6 +44,15 @@ Once the soldering Iron is hot and ready for you you will need to prime the time
 
 ## Step 4: Tinning each of the wires
 If you have purchased the third hand then that device will come in very useful however, it is not necessary. After priming the soldering iron tip, tin the two wires by holding the tip against the exposed wires and placing the solderin opposite of the soldering iron. This will cause the soldering to melt through wire. 
+![image](Developmental_Folder/Tinning_Wire_1.jpg)
+
+## Step 5: Soldering wires together
+Again using either the third hand or other clamping device, hold both tinned ends of the wires together as shown. Then press the soldering iron to this joint holding for only about 2 to 3 seconds or until you visible see that the solder has melted and has created a connection between the two wires. 
+![image](Developmental_Folder/Soldering_Wires_Together.jpg)
+
+At this point it is a good practice to cover this joint with electrical tape or liquid electrical tape. These both can be found at your local hardware store. This reason bein that these are exposed wires that if crossed with other exposed wires may create an electrical short and destroy components. There are proper techniques to cover these for example the use of heat shrink which I have attached a hyperlink below to a you tube video showing the process. However, it is not necessary for the steps in this project. 
+
+[How to use Heat Shrink](https://www.youtube.com/watch?v=LD9kBax1DDk)
 
 
 
