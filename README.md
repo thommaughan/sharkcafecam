@@ -8,6 +8,8 @@ The next step if you are not familiar with soldering should be to review the "So
 
 After you have completed the first two sections or you are familiar with soldering then you are ready to navigation the rest of this repository. The organization of this reprository is as follows. Each folder describes a certain component of the overall project. The subfolders within each of these folders has  a combination of subfolder including a readme.md, mechanical, electrical, and software. First, you should open the "readme.md" which provides necessary information or steps for that component. The Mechanical describes any physical component or mechanism for that component. The electrical describes the components used and how the were wired. The software describes any software that was used to control the electrical components. 
 
+Use these materials as guidelines to further experiment with other cameras or devices. This is merely to show how this project was accomplished and the potential possibilities. 
+
 If you have any questions or any part of these materials are confusion, please feel free to leave comments on sections that are confusing. 
 
 Have fun and go exploring with your new remote sensing camera!
