@@ -87,7 +87,7 @@ This section merely shows a quick example of how to solder wires to electrical c
 
 ## 6. Tips and Tricks
 After you solder wires to certain components it maybe helpful (and if you have the option) to apply some hot glue to hold down the wires to the component. This is shown by the red box. HOWEVER, DO NOT USE THE HOT GLUE ON THE FLEX WIRES WHICH SOME EXAMPLES ARE OUTLINED BY THE VIOLET BOXES. THE REASON BEING, THE HOT GLUE WILL MELT THESE WIRES. 
-![image](Deveopmental_Folder/Hot_Glue_Camera.jpg)
+![image](Developmental_Folder/Hot_Glue_Camera.jpg)
 
 
 
