@@ -20,7 +20,7 @@ Some Soldering Irons come with a soldering station while others may not. A solde
 This cleaning station removes oxidized soldering which you should do each time before you make a new electrical connection. This features two different types of cleaning techniques. One is the wire brush and the other is a wet sponge. Both will be explained later in this tutorial.
 
 ### Wire Strippers
-![image](Developmental_Folder/Wire_Strippers.JPG)
+![image]
 This tools removes the plastic jacket that covers most wires. There are a series of cutting size that match the gauge of the wire. This will allow you to cut through the plastic jacket without cutting through the wire. 
 
 
